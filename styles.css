@@ -1,6 +1,7 @@
 @font-face {
-  font-family: "norse";
-  src: url(fonts/Norse-Bold.otf);
+  font-family: "beans";
+  src: url(fonts/webfontkit-20241219-150657/coffee_town-webfont.woff2),
+    url(fonts/webfontkit-20241219-150657/coffee_town-webfont.woff);
   font-weight: normal;
   font-style: normal;
 }
