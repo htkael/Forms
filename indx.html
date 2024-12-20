@@ -19,47 +19,56 @@
     </header>
     <main class="right">
       <section class="info">
-        <div id="longText"></div>
-        <div id="shortText"></div>
+        <div class="text" id="longText">
+          At Bean's Beans, we believe every cup tells a story. From the first
+          sip to the last, we’re here to deliver exceptional coffee, delightful
+          bites, and a cozy atmosphere. Join our community
+          <em>now</em> coffee lovers and unlock exclusive perks.
+        </div>
+        <div class="text" id="shortText">
+          You <em>know</em> you want a sip...
+        </div>
       </section>
       <section id="form">
-        <form action="url" method="post" id="myForm">
-          <h1 id="formName"></h1>
+        <form id="myForm">
+          <h1 class="text" id="formName">Sign up for rewards now!</h1>
           <section class="inputs">
-            <ul>
+            <ul class="text">
               <li>
-                <label for="firstName">First Name</label>
+                <label for="firstName">FIRST NAME</label>
                 <input type="text" name="user_first" id="firstName" />
               </li>
               <li>
-                <label for="mail">Email</label>
-                <input type="email" name="user_mail" id="mail" />
+                <label for="mail">EMAIL*</label>
+                <input type="email" name="user_mail" id="mail" required />
               </li>
               <li>
-                <label for="pwd">Password</label>
-                <input type="password" name="user_pwd" id="pwd" />
+                <label for="pwd">PASSWORD*</label>
+                <input type="password" name="user_pwd" id="pwd" required />
               </li>
             </ul>
-            <ul>
+            <ul class="text">
               <li>
-                <label for="lastName">Last Name</label>
+                <label for="lastName">LAST NAME</label>
                 <input type="text" name="user_last" id="lastName" />
               </li>
               <li>
-                <label for="number">Phone Number</label>
+                <label for="number">PHONE NUMBER</label>
                 <input type="tel" name="user_number" id="number" />
               </li>
               <li>
-                <label for="conf-pwd">Confirm Password</label>
-                <input type="password" name="user_pwd" id="conf-pwd" />
+                <label for="conf-pwd">CONFIRM PASSWORD*</label>
+                <input type="password" name="user_pwd" id="conf-pwd" required />
               </li>
             </ul>
           </section>
         </form>
       </section>
       <footer>
-        <button form="myForm" type="submit">Create Account</button>
-        <div id="account">Already have an account? <a href="">Log In</a></div>
+        <button form="myForm" type="submit" class="down">Create Account</button>
+        <div class="text down" id="account">
+          Already have an account? <a href="">Log In</a>
+        </div>
       </footer>
     </main>
   </body>
